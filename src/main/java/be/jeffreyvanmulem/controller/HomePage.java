@@ -9,6 +9,6 @@ public class HomePage extends WebPage {
 
         
     public HomePage(final PageParameters parameters) {
-        System.out.println("The webpage has been opened!");
+        System.out.println("The webpage has been opened! really !");
     }
 }

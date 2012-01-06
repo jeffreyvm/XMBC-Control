@@ -16,8 +16,9 @@ import static org.junit.Assert.assertNotNull;
  * Time: 12:45
  * To change this template use File | Settings | File Templates.
  */
+
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:META-INF/spring/applicationContext.xml")
+@ContextConfiguration(locations = {"classpath:META-INF/spring/applicationConfigTests.xml"})
 public class TestSpring{
     @Autowired
     private MovieService movieService;
